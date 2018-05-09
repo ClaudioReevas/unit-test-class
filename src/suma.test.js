@@ -1,5 +1,5 @@
 // import suma from './suma'; //importamos suma, que contiene la función
-const suma = require('/suma');
+const suma = require('./suma');
 
 test('it should return 4', () => {
     const resultado = suma(1,3);
