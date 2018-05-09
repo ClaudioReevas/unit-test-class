@@ -8,4 +8,5 @@ const suma = (a,b) => {
     return a+b;
 }
 
-export default suma;
+module.exports = suma;
+// export default suma; // lo comentamos y pusimos la linea de arriba pq no soporta ema script 6 en jenkins
